@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD3E4982EDCBFFF6C6D2D465 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F92D2EC2FCE41FA17A074F4C /* libPods.a */; };
 		E2DA572D1AF34233005F4F6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DA572C1AF34233005F4F6E /* AppDelegate.swift */; };
-		E2DA572F1AF34233005F4F6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DA572E1AF34233005F4F6E /* ViewController.swift */; };
 		E2DA57321AF34233005F4F6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DA57301AF34233005F4F6E /* Main.storyboard */; };
 		E2DA57341AF34233005F4F6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DA57331AF34233005F4F6E /* Images.xcassets */; };
 		E2DA57371AF34233005F4F6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2DA57351AF34233005F4F6E /* LaunchScreen.xib */; };
 		E2DA57431AF34233005F4F6E /* InstagramLikeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DA57421AF34233005F4F6E /* InstagramLikeAppTests.swift */; };
+		E2DA57561AF3513C005F4F6E /* PicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DA57551AF3513C005F4F6E /* PicCell.swift */; };
+		E2DA575A1AF3C7DA005F4F6E /* PicsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DA57591AF3C7DA005F4F6E /* PicsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25DA24A97677AE39B0719F62 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4371E78001B28E8D244DA22C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E2DA57271AF34233005F4F6E /* InstagramLikeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramLikeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DA572B1AF34233005F4F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2DA572C1AF34233005F4F6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2DA572E1AF34233005F4F6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2DA57311AF34233005F4F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2DA57331AF34233005F4F6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E2DA57361AF34233005F4F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E2DA573C1AF34233005F4F6E /* InstagramLikeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramLikeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DA57411AF34233005F4F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2DA57421AF34233005F4F6E /* InstagramLikeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramLikeAppTests.swift; sourceTree = "<group>"; };
+		E2DA574C1AF345CF005F4F6E /* InstagramLikeApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstagramLikeApp-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		E2DA57551AF3513C005F4F6E /* PicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicCell.swift; sourceTree = "<group>"; };
+		E2DA57591AF3C7DA005F4F6E /* PicsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicsTableViewController.swift; sourceTree = "<group>"; };
+		F92D2EC2FCE41FA17A074F4C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD3E4982EDCBFFF6C6D2D465 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +64,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51A8DA45C015F034DC453056 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F92D2EC2FCE41FA17A074F4C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E2DA571E1AF34233005F4F6E = {
 			isa = PBXGroup;
 			children = (
 				E2DA57291AF34233005F4F6E /* InstagramLikeApp */,
 				E2DA573F1AF34233005F4F6E /* InstagramLikeAppTests */,
 				E2DA57281AF34233005F4F6E /* Products */,
+				E343E191CB59BCBBE0110252 /* Pods */,
+				51A8DA45C015F034DC453056 /* Frameworks */,
+				E2DA574C1AF345CF005F4F6E /* InstagramLikeApp-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +96,9 @@
 		E2DA57291AF34233005F4F6E /* InstagramLikeApp */ = {
 			isa = PBXGroup;
 			children = (
+				E2DA57521AF3506A005F4F6E /* Views */,
+				E2DA574F1AF347A4005F4F6E /* Controllers */,
 				E2DA572C1AF34233005F4F6E /* AppDelegate.swift */,
-				E2DA572E1AF34233005F4F6E /* ViewController.swift */,
 				E2DA57301AF34233005F4F6E /* Main.storyboard */,
 				E2DA57331AF34233005F4F6E /* Images.xcassets */,
 				E2DA57351AF34233005F4F6E /* LaunchScreen.xib */,
@@ -112,6 +132,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E2DA574F1AF347A4005F4F6E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2DA57591AF3C7DA005F4F6E /* PicsTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E2DA57521AF3506A005F4F6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2DA57551AF3513C005F4F6E /* PicCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E343E191CB59BCBBE0110252 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4371E78001B28E8D244DA22C /* Pods.debug.xcconfig */,
+				25DA24A97677AE39B0719F62 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2DA57461AF34233005F4F6E /* Build configuration list for PBXNativeTarget "InstagramLikeApp" */;
 			buildPhases = (
+				69156A99124C3984F127542A /* Check Pods Manifest.lock */,
 				E2DA57231AF34233005F4F6E /* Sources */,
 				E2DA57241AF34233005F4F6E /* Frameworks */,
 				E2DA57251AF34233005F4F6E /* Resources */,
+				DAC5C48655069E48A383C664 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,12 +254,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69156A99124C3984F127542A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC5C48655069E48A383C664 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2DA57231AF34233005F4F6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2DA572F1AF34233005F4F6E /* ViewController.swift in Sources */,
+				E2DA57561AF3513C005F4F6E /* PicCell.swift in Sources */,
+				E2DA575A1AF3C7DA005F4F6E /* PicsTableViewController.swift in Sources */,
 				E2DA572D1AF34233005F4F6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,21 +421,28 @@
 		};
 		E2DA57471AF34233005F4F6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4371E78001B28E8D244DA22C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = InstagramLikeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InstagramLikeApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		E2DA57481AF34233005F4F6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25DA24A97677AE39B0719F62 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = InstagramLikeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InstagramLikeApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +499,7 @@
 				E2DA57481AF34233005F4F6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2DA57491AF34233005F4F6E /* Build configuration list for PBXNativeTarget "InstagramLikeAppTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +508,7 @@
 				E2DA574B1AF34233005F4F6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
